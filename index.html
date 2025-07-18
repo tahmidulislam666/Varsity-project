@@ -3,9 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--========== BOX ICONS ==========-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Cafe JnU</title>
@@ -13,20 +11,17 @@
     <body>
 
 
-        <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
                 
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="assets/history.html" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="hours.html" class="nav__link">Operating hour</a></li>
-                        <li class="nav__item"><a href="menu.html" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="photo.html" class="nav__link">Photo Gallery</a></li>
-                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact us</a></li>
-                        <li class="nav__item"><a href="login.html" class="nav__link">sign in</a></li>
+                        <li class="nav__item"><a href="menu.php" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="admin_login.php" class="nav__link">Admin Login</a></li>
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
                 </div>
@@ -38,21 +33,19 @@
         </header>
         
         <main class="l-main">
-            <!--========== HOME ==========-->
             
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
                         <h1 class="home__title">JnU Cafeteria</h1>
                         <h2 class="home__subtitle">A good place to eat at a reasonable price with the vibe of the university campus.</h2>
-                        <a href="#menu" class="button">View Menu</a>
+                        <a href="menu.html" class="button">View Menu</a>
                     </div>
     
                     <img src="assets/img/home.png" alt="" class="home__img">  
                 </div>
             </section>
             
-            <!--========== ABOUT ==========-->
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
                     <div class="about__data">
@@ -66,29 +59,9 @@
                 </div>
             </section>
 
-            <!--========== SERVICES ==========-->
-            <section class="services section bd-container" id="services">
-                <span class="section-subtitle">Offering</span>
-                <h2 class="section-title">Our amazing services</h2>
 
-                <div class="services__container  bd-grid">
-                    <div class="services__content">
-                        
-                        <h3 class="services__title">Excellent food</h3>
-                        <p class="services__description">We offer our students excellent quality services for many years, with the best food in the university.</p>
-                    </div>
-
-                    <div class="services__content">
-                        
-                        <h3 class="services__title">Parcel</h3>
-                        <p class="services__description">We offer our students excellent quality services for many years, with the best food in the university.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!--========== MENU ==========-->
             <section class="menu section bd-container" id="menu">
-                <h1 class="section-title">Menu</h1>
+                <h1 class="section-title" style="color: rgb(74, 208, 74);">Menu</h1>
 
                 <div class="menu__container bd-grid">
                     <div class="menu__content">

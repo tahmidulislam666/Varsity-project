@@ -1,11 +1,9 @@
-/*===== GOOGLE FONTS =====*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
   --first-color: #069C54;
   --first-color-alt: #048654;
   --title-color: #393939;
@@ -248,7 +246,7 @@ img{
   bottom: 1.5rem;
 }
 
-/*========== HOME ==========*/
+/
 .home__container{
   height: calc(100vh - var(--header-height));
   align-content: center;
@@ -375,37 +373,6 @@ img{
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
-.app__data{
-  text-align: center;
-}
-
-.app__description{
-  margin-bottom: var(--mb-5);
-}
-
-.app__stores{
-  margin-bottom: var(--mb-4);
-}
-
-.app__store{
-  width: 120px;
-  margin: 0 var(--mb-1);
-}
-
-.app__img{
-  width: 230px;
-  justify-self: center;
-}
-
-/*========== CONTACT ==========*/
-.contact__container{
-  text-align: center;
-}
-
-.contact__description{
-  margin-bottom: var(--mb-3);
-}
 
 /*========== FOOTER ==========*/
 .footer__container{
